@@ -88,7 +88,7 @@ export default function Diagnostico({ respostas, indice, onResponder, onMarcar, 
         </>
       )}
 
-      <p className="small">
+      <p className="small push-bottom">
         Não pedimos dados de clientes, senhas ou dados bancários.
         {i > 0 && (
           <>

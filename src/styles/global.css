@@ -88,7 +88,12 @@ button {
   flex-direction: column;
 }
 
+.push-bottom {
+  margin-top: auto;
+}
+
 .sheet {
+  flex: 1;
   background: var(--paper);
   padding: 20px 16px calc(78px + env(safe-area-inset-bottom, 0px));
   display: flex;
