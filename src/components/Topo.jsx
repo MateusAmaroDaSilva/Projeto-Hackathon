@@ -32,7 +32,7 @@ export default function Topo({ respostas, ultima, pronto, plano, feitos, proximo
                 <button
                   className={classes}
                   onClick={() => onAbrirDia(passo.id)}
-                  aria-label={`Dia ${i + 1}: ${passo.titulo}${feito ? " (feito)" : hoje ? " (hoje)" : ""}`}
+                  aria-label={`Passo ${i + 1}: ${passo.titulo}${feito ? " (feito)" : hoje ? " (próximo)" : ""}`}
                 >
                   <span className="dot">{feito ? <IconeCheck /> : i + 1}</span>
                 </button>

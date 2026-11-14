@@ -105,7 +105,7 @@ export default function Radar({ respostas, feitos, onIr, onRecomecar }) {
         <p>{medo.resposta}</p>
         <p className="muted">{fraca.detalhe}</p>
         <button className="btn" onClick={() => onIr("plano")}>
-          {feitos.length ? "Continuar meu plano de 7 dias" : "Ver meu plano de 7 dias"}
+          {feitos.length ? "Continuar meus passos" : "Ver meus passos"}
         </button>
       </section>
 

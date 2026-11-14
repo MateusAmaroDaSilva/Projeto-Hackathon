@@ -328,7 +328,7 @@ export function responderAssistente(mensagem, { plano, feitos, vendeu, respostas
   if (x.includes("não consegui") || x.includes("nao consegui"))
     return {
       texto: prox
-        ? `Sem problema. Faça só a primeira parte de “${prox.titulo}” hoje, ${respostas.hora}. Amanhã eu lembro você do resto.`
+        ? `Sem problema. Faça só a primeira parte de “${prox.titulo}” agora, ${respostas.hora}. Depois você volta para o resto, sem pressa.`
         : "Tudo certo, não há passo pendente.",
       feitos,
     };
@@ -348,5 +348,5 @@ export function responderAssistente(mensagem, { plano, feitos, vendeu, respostas
     };
   if (x.includes("pix") || x.includes("pag")) return { texto: "Deixe o Pix como primeira opção: o pedido já chega pago e você separa em seguida.", feitos };
   if (x.includes("foto")) return { texto: "Perto de uma janela, com fundo liso. Uma foto de frente e outra de perto.", feitos };
-  return { texto: "Posso ajudar com o passo do dia, entrega, Pix, fotos e estoque. Tente “O que falta?”.", feitos };
+  return { texto: "Posso ajudar com o próximo passo, entrega, Pix, fotos e estoque. Tente “O que falta?”.", feitos };
 }

@@ -252,7 +252,7 @@ export default function App() {
         acoes={acoesPlano}
       />
     ) : (
-      <SemDiagnostico titulo="Seu plano de 7 dias" texto="Aqui aparecem os 7 passos até a primeira venda, um por dia." onComecar={comecar} />
+      <SemDiagnostico titulo="Seus passos" texto="Aqui aparecem os 7 passos para ajudar na primeira venda, no seu ritmo." onComecar={comecar} />
     );
   } else if (tela === "assistente") {
     conteudo = pronto ? (
@@ -260,7 +260,7 @@ export default function App() {
     ) : (
       <SemDiagnostico
         titulo="Assistente"
-        texto="Aqui você tira dúvidas, avisa que fez o passo do dia e atualiza o estoque por mensagem."
+        texto="Aqui você tira dúvidas, avisa que fez um passo e atualiza o estoque por mensagem."
         onComecar={comecar}
       />
     );

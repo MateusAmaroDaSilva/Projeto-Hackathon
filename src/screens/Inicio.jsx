@@ -4,8 +4,8 @@ import Rodape from "../components/Rodape.jsx";
 export default function Inicio({ pronto, onComecar, onIr, onRecomecar }) {
   return (
     <>
-      <h1>Da sua loja até a primeira venda pela internet, em 7 dias.</h1>
-      <p className="lead">Você não precisa entender de tecnologia. A gente mostra o que fazer, um passo por dia, com tudo já escrito.</p>
+      <h1>Passos para ajudar a sua loja a chegar mais perto da primeira venda pela internet.</h1>
+      <p className="lead">Você não precisa entender de tecnologia. A gente mostra o que fazer, um passo de cada vez e no seu ritmo, com tudo já escrito. Não é uma promessa de venda: é um apoio para você começar.</p>
 
       <ol className="how">
         <li>
@@ -25,8 +25,8 @@ export default function Inicio({ pronto, onComecar, onIr, onRecomecar }) {
         <li>
           <span className="n">3</span>
           <div>
-            <b>Você segue um plano de 7 dias</b>
-            <span className="muted">Um passo curto por dia, até o primeiro pedido chegar.</span>
+            <b>Você segue os passos no seu ritmo</b>
+            <span className="muted">Passos curtos, sem prazo, que podem aumentar as chances de receber o primeiro pedido.</span>
           </div>
         </li>
       </ol>

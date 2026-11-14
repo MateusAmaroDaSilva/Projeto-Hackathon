@@ -161,7 +161,7 @@ export const PERGUNTAS = [
   },
   {
     id: "tempo",
-    texto: "Quanto tempo por dia dá pra separar pra isso, sem atrapalhar o balcão?",
+    texto: "Quanto tempo dá pra separar pra isso, sem atrapalhar o balcão?",
     opcoes: [op(10, "Menos de 15 min"), op(20, "15 a 30 min"), op(30, "Mais de 30 min")],
   },
   {
@@ -195,7 +195,7 @@ export const PREOCUPACOES = {
     resposta: "Você não precisa colocar a loja inteira na internet. Poucos produtos, os que mais vendem, já bastam.",
     passo: "produtos",
   },
-  tempo: { nome: "falta de tempo", resposta: "Cada passo cabe no tempo que você disse ter por dia.", passo: "resposta" },
+  tempo: { nome: "falta de tempo", resposta: "Cada passo cabe no tempo que você disse ter.", passo: "resposta" },
   balcao: {
     nome: "medo de atrapalhar o balcão",
     resposta: "Com uma resposta pronta, você atende pelo celular sem largar o cliente que está na loja.",

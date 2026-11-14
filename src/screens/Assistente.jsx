@@ -19,7 +19,7 @@ export default function Assistente({ respostas, conversa, digitando, onEnviar, o
   return (
     <>
       <h1>Assistente no WhatsApp</h1>
-      <p className="lead">Lembra o passo do dia, faz o check-in e atualiza o estoque por mensagem, sem abrir painel.</p>
+      <p className="lead">Lembra o próximo passo, faz o check-in e atualiza o estoque por mensagem, sem abrir painel.</p>
 
       <div className="wa">
         <div className="wa-head">

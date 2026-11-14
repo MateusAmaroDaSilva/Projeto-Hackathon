@@ -46,8 +46,8 @@ function PrimeiraVenda({ respostas, feitos, vendeu, onVender, onCopiar }) {
   if (feitos.length >= 3) {
     return (
       <section className="block" id="venda">
-        <h2>Sua loja já pode receber o primeiro pedido</h2>
-        <p>Veja como ele chega para você no balcão.</p>
+        <h2>Sua loja já está mais preparada para receber pedidos</h2>
+        <p>Veja, em uma simulação, como um pedido chegaria para você no balcão.</p>
         <button className="btn" onClick={onVender}>
           Simular a chegada da primeira venda
         </button>
@@ -65,7 +65,7 @@ function Dia({ passo, numero, feito, hoje, aberto, tom, onAlternar, onTom, onFei
     <section className={classes} id={`dia-${passo.id}`}>
       <button className="day-h" onClick={onAlternar} aria-expanded={aberto}>
         <span className="day-n">
-          <small>DIA</small>
+          <small>PASSO</small>
           {numero}
         </span>
         <span>
@@ -136,13 +136,13 @@ function Dia({ passo, numero, feito, hoje, aberto, tom, onAlternar, onTom, onFei
 
 export default function Plano({ respostas, plano, feitos, proximo, diaAberto, tons, vendeu, acoes }) {
   const n = feitos.length;
-  const resumo = n === 7 ? "Você concluiu os 7 passos." : n === 0 ? "Nenhum passo feito ainda. Comece pelo Dia 1." : `Você já fez ${n} de 7 passos.`;
+  const resumo = n === 7 ? "Você concluiu os 7 passos." : n === 0 ? "Nenhum passo feito ainda. Comece pelo Passo 1." : `Você já fez ${n} de 7 passos.`;
 
   return (
     <>
-      <h1>7 dias até a primeira venda</h1>
+      <h1>Passos para melhorar, no seu ritmo.</h1>
       <p className="lead">
-        Um passo por dia{respostas.tempo === 10 ? ", todos com 10 minutos ou menos" : ""}. Melhor hora para fazer: {respostas.hora}.
+        Sem prazo: faça no seu ritmo{respostas.tempo === 10 ? ", todos os passos com 10 minutos ou menos" : ""}. Sugestão: fazer {respostas.hora}.
       </p>
 
       <div>
