@@ -12,7 +12,7 @@ export default function Topo({ respostas, ultima, pronto, plano, feitos, proximo
         <img src="./tray-logo.png" alt="Tray" />
         <div>
           <b>Radar da Primeira Venda</b>
-          <span>Protótipo de hackathon para o desafio Tray. Não é um produto oficial.</span>
+          <span>Protótipo de hackathon para o desafio Tray.</span>
         </div>
       </div>
 
